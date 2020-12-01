@@ -24,8 +24,6 @@ const submitBtn = document.getElementById('submit').addEventListener('click', ()
 		success.style.display = 'block';
 		failed.style.display = 'none';
 		empty.style.display = 'none';
-		genNumber.value = '';
-		submitOutput.value = '';
 	}
 
 	if (genNumber.value !== submitOutput.value) {
